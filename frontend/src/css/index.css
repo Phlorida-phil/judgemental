@@ -1,0 +1,130 @@
+/* GLOBAL STYLES */
+
+.App {
+  background-color: #EBD5B3;
+  padding: .5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+}
+
+/* HERO STYLES */
+.hero-wrapper {
+  width: 100vw;
+  height: 10vw;
+  text-align: center;
+}
+
+.about-page {
+  margin: 2rem;
+}
+
+/* NAV STYLES */
+
+.nav-wrapper {
+  text-align: center;
+  width: 100vw;
+}
+
+.nav-button {
+  padding: 1rem;
+  margin: 0 2rem;
+  width: 15vw;
+  background-color: #EBD5B3;
+  font-weight: bold;
+  border-width: 0;
+  cursor: pointer;
+}
+
+
+
+
+/* COURT STYLES */
+.court-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 0 2rem;
+}
+
+/* COUT STATISTIC STYLES */
+
+.court-numbers {
+  display: flex;
+  width:91vw;
+  text-align: center;
+  justify-content: space-around;
+  margin: 1rem 0 .5rem;
+  background-color: #f7f2ea;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.stats-value {
+  margin: .5rem;
+  font-size: 1.5rem
+}
+
+
+
+/* COURT INFOMRATION CARDS STYLES */
+.court-card {
+  background-color: #f7f2ea;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 5px;
+  width: 25vw;
+}
+
+.court-figures {
+  display: flex;
+  margin:.1rem;
+  justify-content: center;
+}
+
+.court-headings {
+  margin: 1rem 3rem;
+}
+
+.current-judges{
+  margin-bottom: .75rem;
+}
+
+.judge-details {
+  margin: .25rem;
+}
+
+.judge-headers {
+  font-weight: bold;
+  margin: .25rem;
+}
+
+.judge-listing {
+  display: flex;
+  margin: .25rem;
+  padding: .25rem;
+  justify-content: space-between;
+
+}
+
+.judge-info {
+  width: 8vw;
+
+}
